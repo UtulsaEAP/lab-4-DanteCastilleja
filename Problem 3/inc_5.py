@@ -10,7 +10,7 @@ def inc_5():
     n2 = int(input())
     print(n1, end = " ")
     if n1 > n2 :
-        print("Second integer can't be less than the first")
+        print("Second integer can't be less than the first.")
     while n2 >= n1 :
         n1 += 5
         print(n1, end = " ")

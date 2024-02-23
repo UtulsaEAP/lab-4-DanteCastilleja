@@ -1,13 +1,17 @@
 """
 Complete the following python code to reverse the string entered by the user.
 
-Name: 
-Lab Time:
+Name: Dante Castilleja
+Lab Time: Friday 3:00
 """
 
 def reverse_string():
-    # YOUR CODE HERE
-    
-
+    while True:
+        word = input()
+        if word == 'Done' or word == 'done' or word == 'd' :
+            break
+        else :
+            bword = word [::-1]
+            print(bword)
 if __name__ == "__main__":
     reverse_string()
